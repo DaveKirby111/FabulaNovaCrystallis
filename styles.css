@@ -43,7 +43,7 @@ body {
     height: 100vh;
     float: left;
 
-    background-image: linear-gradient(to right, white, pink);
+    background-image: linear-gradient(pink, white, hotpink);
 
 }
 

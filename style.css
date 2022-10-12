@@ -34,6 +34,7 @@ time, mark, audio, video {
 
 body {
     width: 100%;
+    font-family: 'Times New Roman', Times, serif;
 
 }
 
@@ -41,9 +42,6 @@ body {
 
     display: flex;
     align-items: center;
-
-    background-image: url("images/Valhalla_02.jpeg");
-    background-size: cover;
 
 }
 
@@ -71,6 +69,7 @@ li {
     font-size: 15px;
     text-decoration: none;
     border-bottom: 1px solid hotpink;
+    color: purple;
 }
 
 .nav a:hover {
@@ -81,15 +80,16 @@ li {
     width: 90%;
     height: 100vh;
     float: left;
+    overflow: auto;
 
     background-image: url("images/fnc-bg2.jpeg");
-    opacity: 80%;
 
 }
 
 .main {
     margin: 50px;
     font-family: 'Times New Roman', Times, serif;
+    overflow: auto;
 }
 
 h1 {
@@ -103,7 +103,7 @@ h1 {
 h2 {
     margin-bottom: 20px;
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 h3 {
@@ -114,7 +114,12 @@ h3 {
 }
 
 p {
+    font-size: 20px;
     margin-bottom: 20px;
+}
+
+strong {
+    font-size: 25px;
 }
 
 .author {

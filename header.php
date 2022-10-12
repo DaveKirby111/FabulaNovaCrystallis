@@ -7,7 +7,7 @@
         <title>Fabula Nova Crystallis</title>
         <link rel="stylesheet" href="style.css">
     </head>
-    <body>
+    <body <?php body_class(); ?>>
 
         <div class="header">
 
